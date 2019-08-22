@@ -36,7 +36,7 @@ and Crop Boxes i.e, ( Cells of the given Table in our case).
 >
 > Final Detected Table
 >
-> ![](inter_processing/image_bin.jpg)
+> ![](inter_processing/Image_bin.jpg)
 
 
 
