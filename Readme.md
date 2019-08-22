@@ -1,4 +1,4 @@
-#### Crop Cells From Table Images
+#### Crop Cells From Tables
 
 Hello Folks! this project is based on OpenCV and Python with the following codes you can  automatically crop out Cells / Boxes from image of data tables.
 
