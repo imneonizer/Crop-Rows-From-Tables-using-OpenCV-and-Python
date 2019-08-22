@@ -14,7 +14,7 @@ and Crop Boxes i.e, ( Cells of the given Table in our case).
 >> pip install numpy
 `````
 
-#### Illustratioins
+#### Illustrations
 
 > Input Image: ``sample_image.jpg``
 >
