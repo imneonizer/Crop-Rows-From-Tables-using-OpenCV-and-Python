@@ -69,7 +69,7 @@ def box_extraction(img_for_box_extraction_path, cropped_dir_path):
         cv2.imwrite("inter_processing/img_final_bin.jpg",img_final_bin)
 
         # Find contours for image, which will detect all the boxes
-        _, contours, hierarchy = cv2.findContours(img_final_bin, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        contours, hierarchy = cv2.findContours(img_final_bin, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
         # Sort all the contours by top to bottom.
         (contours, boundingBoxes) = sort_contours(contours, method="top-to-bottom")
